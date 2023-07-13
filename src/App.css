@@ -1,4 +1,11 @@
 #root {
-  /* max-width: ; */
-  width: min(75%, 120rem);
+  height: 100dvh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#root main {
+  max-width: 80rem;
+  margin: 0 auto;
 }
