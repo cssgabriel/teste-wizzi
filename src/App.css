@@ -1,5 +1,5 @@
 #root {
-  height: 100dvh;
+  min-height: 100dvh;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -15,14 +15,10 @@ main {
   border-radius: 1rem;
   display: grid;
   grid-template-columns: 2fr 3fr;
+  overflow: hidden;
 }
 
 main section {
-  background-color: var(--color-s);
-  color: var(--color-p);
-}
-
-main :is(section, form) {
   border-radius: 1rem;
   padding: 3rem;
 }
