@@ -2,7 +2,7 @@ import "./Form.css";
 
 const Form = () => {
   return (
-    <form onSubmit={(e) => e.preventDefault()}>
+    <form className="form__checkout" onSubmit={(e) => e.preventDefault()}>
       <label htmlFor="name">Nome</label>
       <input type="text" name="name" />
 

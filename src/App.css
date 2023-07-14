@@ -3,9 +3,26 @@
   align-items: center;
   justify-content: center;
   display: flex;
+  background: linear-gradient(to bottom right, #d8dee7, #d6dce5);
 }
 
-#root main {
+main {
   max-width: 80rem;
+  min-height: 80vh;
   margin: 0 auto;
+  padding: 1rem;
+  background-color: var(--color-p);
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+main section {
+  background-color: var(--color-s);
+  color: var(--color-p);
+}
+
+main :is(section, form) {
+  border-radius: 1rem;
+  padding: 3rem;
 }

@@ -5,8 +5,10 @@
   font-size: 62.5%;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--color-s);
+  background-color: var(--color-p);
+  --color-p: #3c37ff;
+  --color-s: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -63,11 +65,7 @@ input {
   :root {
     color: #213547;
     background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+    --color-p: #ffffff;
+    --color-s: #3c37ff;
   }
 }

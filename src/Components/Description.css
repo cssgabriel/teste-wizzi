@@ -1,0 +1,22 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.6rem;
+}
+
+.pre-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: block;
+  text-transform: uppercase;
+}
+
+.title--xl {
+  font-size: 3.2rem;
+  line-height: 1.2;
+}
+
+.description__content p {
+  margin-top: 1rem;
+}
