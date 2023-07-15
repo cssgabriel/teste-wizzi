@@ -22,12 +22,30 @@
   left: 50rem;
 }
 
+.FormCheckout label::before {
+  content: "";
+  width: 1.5rem;
+  height: 0.8rem;
+  background-color: bisque;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
 .FormCheckout input {
   padding: 1.5rem;
   border-radius: 1rem;
   border: 1px solid #dedede;
   margin-bottom: 2rem;
 }
+
+/* .FormCheckout input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  padding: 0.5rem;
+  margin: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #646cff;
+} */
 
 .FormCheckout input:focus {
   background-color: #d8d7ff44;
@@ -53,11 +71,15 @@
 }
 
 .Btn {
-  font-size: 1.6rem;
+  color: var(--color-p);
+  font-weight: 700;
+  font-family: system-ui, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.4rem;
   display: block;
   border-radius: 0.5rem;
   padding: 1rem;
-  background-color: greenyellow;
+  background-color: #646cff;
   min-width: 10rem;
   text-align: center;
 }

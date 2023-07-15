@@ -5,15 +5,32 @@ const Step1 = () => {
     return dateCopy;
   }
 
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+    const dateBack = e.target.value;
+  }
+
   const date = new Date();
   const dateMin = addDays(date, 1).toISOString().slice(0, 10);
   return (
     <div id="step1">
       <label htmlFor="departure">Data de ida:</label>
-      <input type="date" min={dateMin} value={dateMin} name="departure" />
+      <input
+        type="date"
+        min={dateMin}
+        name="departure"
+        id="departure"
+        required
+      />
 
       <label htmlFor="back">Data de volta:</label>
-      <input type="date" name="back" />
+      <input
+        min={dateMin}
+        type="date"
+        name="back"
+        id="back"
+        required
+        onChange={handleChange}
+      />
     </div>
   );
 };
