@@ -4,6 +4,12 @@
   flex-direction: column;
 }
 
+@media (max-width: 780px) {
+  .ContainerForm {
+    margin-left: 0;
+  }
+}
+
 .ContainerForm h2 {
   font-size: 2rem;
 }
@@ -82,6 +88,12 @@
   background-color: #646cff;
   min-width: 10rem;
   text-align: center;
+}
+
+input[type="submit"].Btn {
+  border: none;
+  background-color: lightgreen;
+  cursor: pointer;
 }
 
 @keyframes showLeft {

@@ -1,24 +1,25 @@
-.description {
+.Description {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-size: 1.6rem;
   background-color: var(--color-s);
   color: var(--color-p);
+  gap: 3rem;
 }
 
-.pre-title {
+.PreTitle {
   font-size: 1.5rem;
   font-weight: 700;
   display: block;
   text-transform: uppercase;
 }
 
-.title--xl {
+.Description h2 {
   font-size: 3.2rem;
   line-height: 1.2;
 }
 
-.description__content p {
+.DescriptionContent p {
   margin-top: 1rem;
 }

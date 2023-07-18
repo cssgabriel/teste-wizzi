@@ -1,5 +1,4 @@
 import { BrowserRouter } from "react-router-dom";
-// import Form from "./Components/Form/Form";
 import Form2 from "./Components/Form/Form2";
 import "./App.css";
 import Description from "./Components/Description";
@@ -7,6 +6,7 @@ import Description from "./Components/Description";
 function App() {
   return (
     <main>
+      <h1>Finalize sua compra!</h1>
       <BrowserRouter>
         <Description />
         <Form2 />

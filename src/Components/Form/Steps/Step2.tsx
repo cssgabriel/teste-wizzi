@@ -1,11 +1,14 @@
 const Step2 = () => {
   return (
     <div id="step2">
-      <label htmlFor="name">Nome:</label>
-      <input type="text" name="name" id="name" required />
+      <label htmlFor="qtd">Quantidade de passageiros:</label>
+      <input type="number" min="1" name="qtd" id="qtd" required />
 
-      <label htmlFor="years">Idade:</label>
-      <input type="number" min="18" name="years" id="years" step="1" required />
+      <label htmlFor="origin">Origem:</label>
+      <input type="text" name="origin" id="origin" required />
+
+      <label htmlFor="destination">Destino:</label>
+      <input type="text" name="destination" id="destination" required />
     </div>
   );
 };
