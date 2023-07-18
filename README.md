@@ -32,7 +32,7 @@ Logo abrirá uma tela onde você poderá ver a aplicação funcionando localment
   - E-mail do passageiro principal
 - Os campos de data devem usar um seletor de data amigável ao usuário
 - O formulário deve conter validação de entrada de dados para garantir que todos os campos sejam preenchidos corretamente
-- O formulário deve ter um botão de envio que exiba uma mensagem de confirmação ao usuário após o envio bem-sucedido
+- O formulário deve ter um botão de envio que exiba uma mensagem de confirmação ao usuário após o envio bem-sucedido.
 
 2. **Requisitos Técnicos**
 
